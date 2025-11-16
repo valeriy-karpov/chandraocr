@@ -1,0 +1,13 @@
+# FastAPI и веб-сервер
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Настройки через .env
+pydantic-settings==2.1.0
+
+# Chandra OCR
+chandra-ocr>=0.1.8
+
+# Опционально для ускорения (если есть GPU и CUDA)
+# flash-attn  # Раскомментируйте если используете GPU
