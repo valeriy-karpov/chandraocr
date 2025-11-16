@@ -4,7 +4,7 @@ uvicorn[standard]==0.27.0
 python-multipart==0.0.6
 
 # Настройки через .env
-pydantic-settings==2.1.0
+pydantic-settings>=2.11.0
 
 # Chandra OCR
 chandra-ocr>=0.1.8
